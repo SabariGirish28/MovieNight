@@ -2,10 +2,9 @@ import express from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
 
-const myAPIKey = "3840b758e5f7b84d216865dcd562c2ef";
+const myAPIKey = MY_API_KEY;
 const posterURL = "https://image.tmdb.org/t/p/w500/";
 const tmdbURL = "https://api.themoviedb.org/3/movie/";
-const myBearerToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzODQwYjc1OGU1ZjdiODRkMjE2ODY1ZGNkNTYyYzJlZiIsIm5iZiI6MTcxOTI5MDQ5Mi42NjI3MjgsInN1YiI6IjY2MWY0ZGNmMDgxNmM3MDE3Y2VmNmE1NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.p2Ndw68PMaV4EG4PXP-X2TAfwaabYCuTH-MD2xbFAjs";
 const maxID = 1307936;
 
 const app = express();
